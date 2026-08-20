@@ -177,3 +177,15 @@ outputs/
 *.urdf
 *.xml
 *.part
+
+# ADDBYME
+dataset/
+model/
+*.png
+*.jpg
+flight_logs/
+*.mp4
+*.mkv
+*.txt
+260717IsaacSim*/
+LeRobot_Dataset_4Cam/
