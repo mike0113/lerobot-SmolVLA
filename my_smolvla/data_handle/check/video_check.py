@@ -86,5 +86,5 @@ dir_path = args.dir
 fps = args.fps
 
 # 執行轉換 (請替換為你的實際 round 資料夾名稱)
-create_sync_video(dir_path, f"output-{os.path.basename(dir_path)}.mp4", fps=fps)
+create_sync_video(dir_path, f"output_{fps}fps-{os.path.basename(dir_path)}.mp4", fps=fps)
 print(f"{os.path.basename(dir_path)} 影片轉換完成。")

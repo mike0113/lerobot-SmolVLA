@@ -32,7 +32,7 @@ OUTPUT_DIR = Path("single_chunk_inference_output")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # 🎯 指定你要無人機「睜開眼睛」的那一幀 (Frame Index)
-TARGET_FRAME = 100
+TARGET_FRAME = 940
 CHUNK_SIZE = 16
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
